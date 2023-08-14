@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EXPO INFINITY - Incluye tu proyecto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      body {
+font-family: "Helvetica Neue", Arial, sans-serif;;
+      margin: 0;
+      padding: 0;
+    }
+  body {
+      
+      margin: 0;
+      padding: 0;
+      background-image: url("C:/Users/danie/OneDrive/Escritorio/Expotecnia/Donaciones fondo.jpg");
+      background-size: cover;
+    }
+     #recuadro1 {
+      height: 200px;
+      width: 100%;
+      background-image: url("C:/Users/danie/OneDrive/Escritorio/Expotecnia/z.jpg");
+      color: white;
+      text-align: center;
+      font-size: 80px;
+      line-height: 200px;
+      position: relative;
+    }
+        #textContainer {
+      animation: neonGlow 1.5s infinite;
+    }
+
+    @keyframes neonGlow {
+      0% {
+        text-shadow: 0 0 10px #0abab5, 0 0 20px #0abab5, 0 0 30px #0abab5, 0 0 40px #0abab5;
+      }
+      50% {
+        text-shadow: 0 0 10px #04555a, 0 0 20px #04555a, 0 0 30px #04555a, 0 0 40px #04555a;
+      }
+      100% {
+        text-shadow: 0 0 10px #0abab5, 0 0 20px #0abab5, 0 0 30px #0abab5, 0 0 40px #0abab5;
+      }
+    }
+
+    #recuadro2 {
+      height: 100px;
+      width: 100%;
+      background-image: url("C:/Users/danie/OneDrive/Escritorio/Expotecnia/cc.jpg");
+      background-size: cover;
+        background-repeat: no-repeat;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    #recuadro2 a {
+      text-decoration: none;
+      color: white;
+      font-size: 24px;
+      position: relative; /* Agregamos posición relativa para los enlaces */
+    }
+
+    #recuadro2 a:hover {
+      background-color: #FFDAB9;
+      color: white;
+      border-radius: 5px;
+    }
+
+    #recuadro2 a span {
+      padding: 10px;
+      transition: all 0.2s ease-in-out;
+      animation: neonBlink 1.5s infinite; /* Agregamos la animación de parpadeo */
+    }
+
+    /* Animación de parpadeo neon */
+    @keyframes neonBlink {
+      0%, 100% {
+        text-shadow: 0 0 10px #0abab5, 0 0 20px #0abab5, 0 0 30px #0abab5, 0 0 40px #0abab5;
+      }
+      50% {
+        text-shadow: 0 0 10px #04555a, 0 0 20px #04555a, 0 0 30px #04555a, 0 0 40px #04555a;
+      }
+    }
+
+   #recuadro5 {
+      /* Estilos para el recuadro 5 */
+      position: absolute;
+      height: 200px;
+      width: 100%;
+      background-image: url("C:/Users/danie/OneDrive/Escritorio/Expotecnia/cc.jpg");
+      color: #FFFFFF; 
+      text-align: center;
+      font-size: 48px;
+      line-height: 200px;
+      bottom: -550px;
+      /* Agregamos una transición para suavizar el efecto */
+      transition: text-shadow 0.3s ease-in-out;
+    }
+
+    /* Pseudo-clase para el efecto neon */
+    #recuadro5:hover {
+      text-shadow: 0 0 10px #0abab5, 0 0 20px #0abab5, 0 0 30px #0abab5, 0 0 40px #0abab5;
+    }
+    .donation-form {
+      margin: 20px auto;
+      max-width: 500px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 45px;
+
+      box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+         animation: glow-border 2s ease-in-out infinite;
+    }
+      @keyframes glow-border {
+      0%, 100% {
+        border: 2px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+      }
+      50% {
+          border: 3px solid #00c853; /* Cambiamos el color a verde esmeralda */
+        box-shadow: 0 0 15px rgba(0, 200, 83, 1);
+      }
+    }
+      .donation-form input[type="text"],
+  .donation-form input[type="Integrantes"],
+  .donation-form select {
+    /* Estilos previos, sin cambios */
+    border: 1px solid #ccc; /* Asegurarse de tener un borde inicial */
+  }
+
+  /* Nuevo estilo para el hover */
+  .donation-form input[type="text"]:hover,
+  .donation-form input[type="Integrantes"]:hover,
+  .donation-form select:hover {
+    border-color: #0099ff; /* Cambiar el color azul galáctico según tu preferencia */
+    box-shadow: 0 0 5px #0099ff; /* Agregar un efecto de sombra al hacer hover */
+  }
+
+    .donation-form h3 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .donation-form label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .donation-form input[type="text"],
+    .donation-form input[type="Integrantes"],
+    .donation-form select {
+      width: 95%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      margin-bottom: 15px;
+    }
+
+
+.donation-form input[type="Gra"],
+.donation-form select {
+      width: 40%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      margin-bottom: 15px;
+    }
+
+
+    .donation-form input[type="añño"],
+.donation-form select {
+      width: 40%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      margin-bottom: 15px;
+}
+
+.donation-form input[type="Bachi"],
+.donation-form select {
+      width: 45%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      margin-bottom: 15px;
+
+
+
+    }
+
+
+    .donation-form input[type="Enviar"] {
+      width: 60px;
+      background-color: #4caf50;
+      border: none;
+      color: #ffffff;
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .donation-form input[type="Enviar"]:hover {
+      background-color: #45a049;
+    }
+      .form-container {
+      background-color: rgba(249, 249, 249, 0.8); /* Ajustar la opacidad según sea necesario */
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+      animation: glow-border 2s ease-in-out infinite;
+    }
+     .rounded-top-bottom {
+    border-top-left-radius: 45px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 45px;
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    animation: glow-border 2s ease-in-out infinite;
+  }
+    
+    </style>
+  </head>
+  <body>
+     <div id="recuadro1">
+      <style>
+
+    }
+  </style>
+  <style>
+    .logos {
+      position: absolute;
+      top: 0px;
+      left: 10px; 
+      background-color:transparent;
+      padding: 0px;
+      height: 10px;
+    }
+
+    .logoss {
+      width: 125px;
+      height: 125px;
+    }
+  </style>
+      <div id="textContainer">
+EXPO INFINITY
+    </div>
+  </div>
+
+  <div id="recuadro2">
+    <a href="expocopia.html">
+      <span><i class="fas fa-home"></i> Inicio</span>
+    </a>
+    <a href="historia.html">
+      <span><i class="fas fa-book"></i> Guía</span>
+    </a>
+    <a href="proyectos.html">
+      <span><i class="fas fa-tasks"></i> Proyectos</span>
+    </a>
+    <a href="ganadores.html">
+      <span><i class="fas fa-trophy"></i> Ganadores</span>
+    </a>
+    <a href="experiencia.html">
+      <span><i class="fas fa-comments"></i> Experiencias</span>
+    </a>
+    <a href="donaciones.html">
+      <span><i class="fas fa-image"></i> Álbum</span>
+    </a>
+    <a href="proyecto.html">
+      <span><i class="fas fa-plus"></i> Incluye tu proyecto</span>
+    </a>
+    <a href="creadores.html">
+      <span><i class="fas fa-users"></i> Creadores</span>
+    </a>
+  </div>
+
+
+
+  <div class="donation-form rounded-top-bottom">
+      <h3>Agrega tu proyecto</h3>
+
+     <form action=https://formspree.io/f/moqoejoq method="POST">
+
+        <label for="name">Nombre del Proyecto :</label>
+        <input type="text" id="name" name="name" required placeholder="Nombre">
+
+        <label for="Integrantes">Integrantes:</label>
+        <input type="Integrantes" id="Integrantes" name="Integrantes" required placeholder="Integrantes">
+        <label for="Bachi">Bachiller:</label>
+        <select type="Bachiller" name="Bachi" required>
+          <option value="blank"></option>
+          <option value="Ciin">Ciencias e informática</option>
+          <option value="Artes">Artes Gráficas</option>
+          <option value="Electro">Electromecánica</option>
+          <option value="Auto">Autotrónica</option>
+          <option value="Mecanica">Mecánica de Precisión</option>
+          <option value="Comercio">Comercio</option>
+           <option value="Ciencias">Ciencias</option>
+          <option value="info">Informática</option>
+
+        </select>
+        <label for="Año">Año en que se realizo el proyecto</label>
+        <input type="añño" id="amount" name="amount" required placeholder="Año">
+         <label for="Grado">Grado que cursaba</label>
+        <input type="Gra" id="amount" name="amount" required placeholder="Grado">
+        <label for="Descri">Describe tu proyecto</label>
+        <input type="text" id="amount" name="amount" required placeholder="Describe tu proyecto">
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+    <div id="recuadro5">
+      La creatividad no tiene límites
+    </div>
+  </body>
+</html>
